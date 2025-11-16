@@ -1,5 +1,10 @@
 package net.bart.economy;
 
+import net.bart.economy.block.ModBlocks;
+import net.bart.economy.item.ModCreativeModeTabs;
+import net.bart.economy.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -22,11 +27,14 @@ public class EconomyMod {
 
     public EconomyMod(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
-
         NeoForge.EVENT_BUS.register(this);
 
-        modEventBus.addListener(this::addCreative);
+        ModCreativeModeTabs.register(modEventBus);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 

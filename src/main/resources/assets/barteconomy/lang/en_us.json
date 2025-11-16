@@ -1,0 +1,12 @@
+{
+  "item.barteconomy.half_zloty": "50 Groszy",
+  "item.barteconomy.zloty": "Złotówka",
+  "item.barteconomy.two_zloty": "2 Złote",
+  "item.barteconomy.five_zloty": "5 Złotych",
+  "item.barteconomy.ten_zloty": "10 Złotych",
+
+  "block.barteconomy.zloty_block": "Blok Złotówki",
+  "block.barteconomy.two_zloty_block": "Blok Dwóch Złotych",
+
+  "creativetab.barteconomy.tab": "Bart Economy"
+}
