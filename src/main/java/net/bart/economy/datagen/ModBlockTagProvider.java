@@ -19,13 +19,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.ZLOTY_BLOCK.get())
-                .add(ModBlocks.TWO_ZLOTY_BLOCK.get())
-                .add(ModBlocks.HALF_ZLOTY_PLACEABLE.get());
-        tag(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.ZLOTY_BLOCK.get())
-                .add(ModBlocks.TWO_ZLOTY_BLOCK.get());
+
 
     }
 }

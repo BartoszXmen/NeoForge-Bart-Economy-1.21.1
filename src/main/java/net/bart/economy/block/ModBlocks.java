@@ -18,26 +18,19 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(EconomyMod.MOD_ID);
 
-    public static final DeferredBlock<Block> ZLOTY_BLOCK = registerBlock("zloty_block",
-            () -> new Block(
-                    BlockBehaviour.Properties.of()
-                            .strength(1f)
-                            .requiresCorrectToolForDrops()
-                            .sound(SoundType.COPPER)));
-
-    public static final DeferredBlock<Block> TWO_ZLOTY_BLOCK = registerBlock("two_zloty_block",
-            () -> new Block(
-                    BlockBehaviour.Properties.of()
-                            .strength(1f)
-                            .requiresCorrectToolForDrops()
-                            .sound(SoundType.SCULK)));
-
-    public static final DeferredBlock<Block> HALF_ZLOTY_PLACEABLE =
-            BLOCKS.register("half_zloty_placeable",
-                    () -> new Block(BlockBehaviour.Properties.of()
-                            .noOcclusion()
-                            .strength(0.2f)
-                    ));
+//    public static final DeferredBlock<Block> ZLOTY_BLOCK = registerBlock("zloty_block",
+//            () -> new Block(
+//                    BlockBehaviour.Properties.of()
+//                            .strength(1f)
+//                            .requiresCorrectToolForDrops()
+//                            .sound(SoundType.COPPER)));
+//
+//    public static final DeferredBlock<Block> TWO_ZLOTY_BLOCK = registerBlock("two_zloty_block",
+//            () -> new Block(
+//                    BlockBehaviour.Properties.of()
+//                            .strength(1f)
+//                            .requiresCorrectToolForDrops()
+//                            .sound(SoundType.SCULK)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

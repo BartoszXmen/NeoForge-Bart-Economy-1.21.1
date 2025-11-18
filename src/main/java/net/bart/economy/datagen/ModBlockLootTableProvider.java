@@ -20,9 +20,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.ZLOTY_BLOCK.get());
-        dropSelf(ModBlocks.TWO_ZLOTY_BLOCK.get());
-        dropOther(ModBlocks.HALF_ZLOTY_PLACEABLE.get(), ModItems.HALF_ZLOTY.get());
+
     }
 
     @Override

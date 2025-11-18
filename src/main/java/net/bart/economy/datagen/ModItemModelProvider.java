@@ -18,5 +18,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TWO_ZLOTY.get());
         basicItem(ModItems.FIVE_ZLOTY.get());
         basicItem(ModItems.TEN_ZLOTY.get());
+        basicItem(ModItems.TWENTY_ZLOTY.get());
+        basicItem(ModItems.FIFTY_ZLOTY.get());
+        basicItem(ModItems.ONE_HUNDRED_ZLOTY.get());
+        basicItem(ModItems.COIN_FRAGMENT.get());
+        basicItem(ModItems.SMALL_COIN.get());
+        basicItem(ModItems.COIN.get());
+        basicItem(ModItems.BANKNOTE.get());
+        basicItem(ModItems.COPPER_NUGGET.get());
     }
 }

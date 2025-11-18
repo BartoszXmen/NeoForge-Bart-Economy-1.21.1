@@ -1,12 +1,23 @@
 {
-  "item.barteconomy.half_zloty": "50 Groszy",
-  "item.barteconomy.zloty": "Złotówka",
-  "item.barteconomy.two_zloty": "2 Złote",
-  "item.barteconomy.five_zloty": "5 Złotych",
-  "item.barteconomy.ten_zloty": "10 Złotych",
+  "item.barteconomy.half_zloty": "§850 Groszy",
+  "item.barteconomy.zloty": "§81 Złoty",
+  "item.barteconomy.two_zloty": "§72 Złote",
+  "item.barteconomy.five_zloty": "§65 Złotych",
+  "item.barteconomy.ten_zloty": "§a§l10 Złotych",
+  "item.barteconomy.twenty_zloty": "§b§l20 Złotych",
+  "item.barteconomy.fifty_zloty": "§6§l50 Złotych",
+  "item.barteconomy.one_hundred_zloty": "§c§l100 Złotych",
 
-  "block.barteconomy.zloty_block": "Blok Złotówki",
-  "block.barteconomy.two_zloty_block": "Blok Dwóch Złotych",
+  "item.barteconomy.copper_nugget": "Copper Nugget",
+  "item.barteconomy.coin_fragment": "§7Coin Fragment",
+  "item.barteconomy.small_coin": "§eSmall Coin",
+  "item.barteconomy.coin": "§6Coin",
+  "item.barteconomy.banknote": "§5Banknote",
+
+  "tooltips.items.coin_fragment": "§7Item used to craft small coin and coin templates.",
+  "tooltips.items.small_coin": "§7Coin template used to craft small coins like 50 Groszy.",
+  "tooltips.items.coin": "§7Coin template used to craft coins like 1 Złoty, 2 Złote & 5 Złotych.",
+  "tooltips.items.banknote": "§7Banknote template used to craft banknotes like 10 Złotych, 20 Złotych, 50 Złotych & 100 Złotych",
 
   "creativetab.barteconomy.tab": "Bart Economy"
 }

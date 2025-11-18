@@ -25,8 +25,14 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.TWO_ZLOTY);
                       output.accept(ModItems.FIVE_ZLOTY);
                       output.accept(ModItems.TEN_ZLOTY);
-                      output.accept(ModBlocks.ZLOTY_BLOCK);
-                      output.accept(ModBlocks.TWO_ZLOTY_BLOCK);
+                      output.accept(ModItems.TWENTY_ZLOTY);
+                      output.accept(ModItems.FIFTY_ZLOTY);
+                      output.accept(ModItems.ONE_HUNDRED_ZLOTY);
+                      output.accept(ModItems.COPPER_NUGGET);
+                      output.accept(ModItems.COIN_FRAGMENT);
+                      output.accept(ModItems.SMALL_COIN);
+                      output.accept(ModItems.COIN);
+                      output.accept(ModItems.BANKNOTE);
                     }).build());
 
     public static void register(IEventBus eventBus) {

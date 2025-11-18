@@ -15,9 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.ZLOTY_BLOCK);
-        blockWithItem(ModBlocks.TWO_ZLOTY_BLOCK);
-        simpleBlock(ModBlocks.HALF_ZLOTY_PLACEABLE.get(), models().getExistingFile(modLoc("block/half_zloty_placeable")));
+
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
